@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Desktop';
+  src: url('/fonts/Test\ desktop\ fonts\ \(OTF\)/');
+}
+
+
+
+
+
+.title-container{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  padding-top: 20px;
+}
+
+.title2{
+  text-align: center ;
+  font-size: 25px;
+}
+.title1{
+text-align: center ;
+  font-size: 35px;
+  font-weight: 900;
+}
+.desc{
+  text-align: center ;
+  font-weight: 300;
+}
+.curser{
+  cursor: pointer;
+}
+.card-btn{
+  background-color: black ;
+color: white;
+border-radius: 15px;
+padding: 1px 10px;
+width: max-content;
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.6s ease-out forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
